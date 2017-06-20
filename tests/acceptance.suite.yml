@@ -17,6 +17,14 @@ modules:
             #host: "10.0.10.95" 
             port: "4444"
             
+gherkin:
+    contexts: 
+        default:
+            - AcceptanceTester 
+            - Step\Acceptance\LoginStep
+            - Step\Acceptance\OverviewStep
+            - Step\Acceptance\MyAccountstep
+
             
 env:
     uat-chrome:
