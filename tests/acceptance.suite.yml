@@ -10,4 +10,20 @@ modules:
         - WebDriver:
             url: 'https://www.google.com'
             browser: chrome
-        
+    WebDriver:
+            url: 'http://synapse-uat.mnv-tech.com/#'
+            browser: 'chrome'
+            clear_cookies: false
+            #host: "10.0.10.95" 
+            port: "4444"
+            
+            
+env:
+    uat-chrome:
+         modules:
+            config:
+                WebDriver:
+                    url: 'https://mapworks-uat.skyfactor.com/#/'
+                    browser: 'chrome'
+                    wait: 3
+                    webStorageEnabled: true 
