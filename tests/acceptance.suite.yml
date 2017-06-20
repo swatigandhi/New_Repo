@@ -8,7 +8,7 @@ class_name: AcceptanceTester
 modules:
     enabled:
         - WebDriver:
-            url: 'https://mapworks-uat.skyfactor.com/#/'
+            url: 'https://www.google.com/'
             browser: chrome
     WebDriver:
             url: 'http://synapse-uat.mnv-tech.com/#'
